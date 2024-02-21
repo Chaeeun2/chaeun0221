@@ -1,0 +1,139 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sam3KRFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Sam3KRFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Sam3KRFont';
+    letter-spacing: -0.05em;
+    background: black;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.indexbody {
+    overflow: hidden;
+}
+
+.body_1 {
+    margin: 1.5em;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5em 0 0 -2.5em;
+    height: 100%;
+}
+
+.wrap img {
+    width: 8.9vw;
+    position: relative;
+    z-index: 2;
+    margin: -2.5em 0;
+}
+
+.btn {
+    line-height: 1;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.btn a:hover {
+    background: black;
+    color: red;
+    border-bottom: 3px solid #afafaf;
+    border-left: 3px solid #afafaf;
+    border-top: 3px solid #535353;
+    border-right: 3px solid #535353;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    color: black;
+    border-top: 3px solid #afafaf;
+    border-right: 3px solid #afafaf;
+    border-bottom: 3px solid #535353;
+    border-left: 3px solid #535353;
+    padding: 0.8em;
+    font-size: 1.2em;
+    letter-spacing: -0.05em;
+}
+
+.btn a:hover {
+    color: red;
+}
+
+.textwrap {
+    margin: 1em;
+    height: 100%;
+}
+
+.paper:hover {
+    rotate: 10deg;
+}
+
+.title_1,
+.text_1_intro p {
+    color: white;
+    margin: 0;
+}
+
+.text_1_a ol {
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-weight: 400;
+    display: none;
+    margin: 0 0 0 0.3em;
+}
+
+.text_1_intro {
+    font-size: 4em;
+    line-height: 1.2;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 0 0 0.1em;
+}
+
+.btnwrap_1 {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.btn_1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    border: 2px solid white;
+    line-height: 1;
+    padding: 0.3em 0.4em 0.3em 0.5em;
+    text-align: center;
+}
+
+.back a,
+.back {
+    color: white;
+    font-size: 1.4em;
+    margin: 0 0 1em 0;
+    text-decoration: none;
+    line-height: 0.5;
+}
